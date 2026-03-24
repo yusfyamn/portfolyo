@@ -1,0 +1,72 @@
+html,
+body {
+  background: #000 !important;
+}
+
+#canvas,
+.transition-cover {
+  display: none !important;
+}
+
+.loader,
+.contact,
+.contact__blocking-bg,
+.subscribe-modal,
+#gui {
+  display: none !important;
+}
+
+.app-wrapper,
+#ui {
+  opacity: 1 !important;
+}
+
+.cursor {
+  display: none !important;
+}
+
+.link,
+.card,
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a,
+button,
+form {
+  pointer-events: none !important;
+}
+
+.cards-wrapper2,
+.card__img {
+  will-change: transform;
+}
+
+.cards-wrapper2 {
+  cursor: grab;
+  perspective: 1800px;
+  transform-style: preserve-3d;
+}
+
+.is-dragging-gallery .cards-wrapper2 {
+  cursor: grabbing;
+}
+
+.card.card--abs,
+.card__img,
+.card__text,
+.card__top,
+.card__bottom,
+.card__title {
+  will-change: transform, opacity, filter;
+  backface-visibility: hidden;
+}
+
+.card.card--abs {
+  transform-style: preserve-3d;
+}
+
+.card__img {
+  transform-origin: center center;
+}

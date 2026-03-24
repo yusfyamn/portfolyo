@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phantom-Inspired Draggable Infinite Gallery | Codegrid</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <section id="gallery">
+      <div class="corner-blur"></div>
+      <div class="vignette-overlay"></div>
+    </section>
+
+    <div class="menu-overlay"></div>
+    
+    <div class="menu-drop-zone"></div>
+
+    <nav class="menu-drawer">
+      <div class="navbar">
+        <div class="navbar-left">
+          <div class="navbar-logo">
+            <span>yaman®</span>
+          </div>
+        </div>
+
+        <div class="navbar-center">
+        </div>
+
+        <div class="navbar-right">
+          <a class="navbar-cta-btn" href="mailto:hello@yusufyaman.com">
+            <div class="navbar-cta-btn-container">
+              <div class="navbar-cta-btn-text">
+                <span>Email Me</span>
+              </div>
+              <div class="navbar-cta-btn-inner">
+                <div class="navbar-cta-btn-inner-bg"></div>
+              </div>
+              <div class="navbar-cta-btn-shader">
+                <div class="navbar-cta-btn-shader-bg"></div>
+              </div>
+            </div>
+          </a>
+          <button class="navbar-menu-btn">
+            <div class="navbar-menu-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="menu-panel">
+      <div class="menu-panel-content">
+        <div class="menu-main-links">
+          <a href="/" class="menu-link" data-index="0">
+            <span class="menu-link-text" data-text="Çalışmalar"><span>Çalışmalar</span></span>
+            <svg class="menu-link-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="/services.html" class="menu-link" data-index="1">
+            <span class="menu-link-text" data-text="Hizmetler"><span>Hizmetler</span></span>
+            <svg class="menu-link-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="#about" class="menu-link" data-index="2">
+            <span class="menu-link-text" data-text="Hakkımda"><span>Hakkımda</span></span>
+            <svg class="menu-link-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="#contact" class="menu-link" data-index="3">
+            <span class="menu-link-text" data-text="İletişim"><span>İletişim</span></span>
+            <svg class="menu-link-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+
+        <div class="menu-footer">
+          <div class="menu-footer-section">
+            <span class="menu-footer-label">Follow</span>
+            <div class="menu-footer-links">
+              <a href="#" class="menu-footer-link" data-text="Instagram"><span>Instagram</span></a>
+              <a href="#" class="menu-footer-link" data-text="LinkedIn"><span>LinkedIn</span></a>
+              <a href="#" class="menu-footer-link" data-text="Twitter"><span>Twitter</span></a>
+            </div>
+          </div>
+          <div class="menu-footer-section">
+            <span class="menu-footer-label">Contact</span>
+            <div class="menu-footer-links">
+              <a href="mailto:hello@yusufyaman.com" class="menu-footer-link" data-text="hello@yusufyaman.com"><span>hello@yusufyaman.com</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
