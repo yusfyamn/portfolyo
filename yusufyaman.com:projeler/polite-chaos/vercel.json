@@ -1,0 +1,4 @@
+{
+  "buildCommand": "cd yusufyaman.com:projeler/polite-chaos && npm run build",
+  "outputDirectory": "yusufyaman.com:projeler/polite-chaos/.next"
+}
